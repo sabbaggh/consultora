@@ -46,6 +46,21 @@ function App() {
         </div>
         <img src={require('./images/codigo1.jpg')} alt='codigo1' className='w-2/5 h-3/6 object-cover rounded-3xl shadow-teal-300'/>
       </div>
+      <div className='flex flex-row h-screen items-center justify-center w-full bg-teal-600 space-x-8 snap-start' id='conocenos'>
+        <img src={require('./images/codigo1.jpg')} alt='codigo1' className='w-2/5 h-3/6 object-cover rounded-3xl shadow-teal-300'/>
+        <div className='text-slate-50 w-2/5'>
+          <h1 className='text-3xl text-center'>Sobre Inndomitus</h1>
+          <p className='text-2xl'>Inndomitus se encarga de implementar soluciones de IA para las empresas</p>
+        </div>
+      </div>
+      <div className='flex flex-row h-screen items-center justify-center w-full bg-sky-950 space-x-8 snap-start' id='conocenos'>
+        <div className='text-slate-50 w-2/5'>
+          <h1 className='text-3xl text-center'>Socios comerciales</h1>
+          <div className='flex flex-row w-10/12 h-5/12 items-center justify-center'>
+            <img src={require('./images/bosch_logo.png')} alt='codigo1' className='w-3/12 h-3/12 object-cover rounded-3xl shadow-teal-300'/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
