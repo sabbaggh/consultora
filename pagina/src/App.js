@@ -35,22 +35,22 @@ function App() {
         <a href='#conocenos' className='text-slate-50 opacity-100 text-xl hover:text-teal-300'>Conocenos</a>
       </div>
       <div className='h-screen flex items-center justify-center w-full snap-start' id='inicio'>
-        <img src={require('./images/equipo1.jpg')} alt='equipo1' className='w-full h-screen object-cover blur-sm'/>
+        <img src={require('./images/meeting2.gif')} alt='equipo1' className='w-full h-screen object-cover blur-sm'/>
         <p className='text-white text-6xl z-20 absolute'>Mejora tu negocio</p>
-        <div className='z-10 bg-gray-950 absolute h-full w-full opacity-70'></div>
+        <div className='z-10 bg-gray-950 absolute h-full w-full opacity-30'></div>
       </div>
-      <div className='flex flex-row h-screen items-center justify-center w-full bg-gray-950 space-x-8 snap-start' id='conocenos'>
-        <div className='text-slate-50 w-2/5'>
-          <h1 className='text-3xl text-center'>Sobre Inndomitus</h1>
-          <p className='text-2xl'>Inndomitus se encarga de implementar soluciones de IA para las empresas</p>
+      <div className='flex flex-row h-screen items-center justify-between w-full bg-gray-950 space-x-8 snap-start space-between' id='conocenos'>
+        <div className='text-slate-50 w-full flex-col justify-center'>
+          <h1 className='text-3xl text-center'>Sobre NNdomitus</h1>
+          <p className='text-2xl'>NNdomitus se encarga de implementar soluciones de IA para las empresas</p>
         </div>
-        <img src={require('./images/codigo1.jpg')} alt='codigo1' className='w-2/5 h-3/6 object-cover rounded-3xl shadow-teal-300'/>
+        <img src={require('./images/codigo1.jpg')} alt='codigo1' className='w-3/6 h-full object-cover shadow-teal-300'/>
       </div>
-      <div className='flex flex-row h-screen items-center justify-center w-full bg-teal-600 space-x-8 snap-start' id='conocenos'>
-        <img src={require('./images/codigo1.jpg')} alt='codigo1' className='w-2/5 h-3/6 object-cover rounded-3xl shadow-teal-300'/>
-        <div className='text-slate-50 w-2/5'>
-          <h1 className='text-3xl text-center'>Sobre Inndomitus</h1>
-          <p className='text-2xl'>Inndomitus se encarga de implementar soluciones de IA para las empresas</p>
+      <div className='flex flex-col h-screen items-center justify-between w-full bg-teal-600 space-x-8 snap-start' id='conocenos'>
+        <img src={require('./images/codigo1.jpg')} alt='codigo1' className='w-full h-3/6 object-cover shadow-teal-300'/>
+        <div className='text-slate-50 w-2/5 flex flex-col items-center h-full justify-center'>
+            <h1 className='text-3xl text-center'>Sobre NNdomitus</h1>
+            <p className='text-2xl'>NNdomitus se encarga de implementar soluciones de IA para las empresas</p>
         </div>
       </div>
       <div className='flex flex-row h-screen items-center justify-center w-full bg-sky-950 space-x-8 snap-start' id='conocenos'>
